@@ -486,7 +486,7 @@ furnished to do so, subject to the following conditions:
 ### 👤 Autor Original
 **Yuri Modz**
 - 📱 WhatsApp: [+55 65 9306-5507](https://wa.me/556593065507)
-- 🌐 Website: [yuribot.xyz](http://yuribot.xzy/docs)
+- 🌐 Website: [yuribot.xyz](http://yuribot.xyz/docs)
 - 💻 GitHub: [@YuriModz](https://github.com/YuriModz/Yuri-Bot)
 
 ### 👥 Mantenedor do Fork
@@ -513,7 +513,7 @@ Este projeto não seria possível sem:
 
 ### 🔗 Links Relacionados
 
-- 📖 Documentação oficial: [yuribot.xyz/docs](http://yuribot.xzy/docs)
+- 📖 Documentação oficial: [yuribot.xyz/docs](http://yuribot.xyz/docs)
 - 🔄 Repositório original: [YuriModz/Yuri-Bot](https://github.com/YuriModz/Yuri-Bot)
 - 📦 NPM - @cognima/walib: [npmjs.com/package/@cognima/walib](https://www.npmjs.com/package/@cognima/walib)
 
