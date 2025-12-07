@@ -6,16 +6,16 @@ Uma descrição curta: bot2teste é um repositório exemplo para desenvolvimento
 <a href="https://github.com/MAY0LPHI/bot2teste/issues"><img src="https://img.shields.io/github/issues/MAY0LPHI/bot2teste"></a>
 <a href="https://github.com/MAY0LPHI/bot2teste/blob/main/LICENSE"><img src="https://img.shields.io/github/license/MAY0LPHI/bot2teste"></a>
 
-Sumário
-- <a>Sobre</a>
-- <a>Features</a>
-- <a>Tecnologias</a>
-- <a>Instalação</a>
-- <a>Uso</a>
-- <a>Contribuição</a>
-- <a>Licença</a>
-- <a>Contato</a>
-- <a>Créditos</a>
+## Sumário
+- [Sobre](#sobre)
+- [Features](#features)
+- [Tecnologias](#tecnologias)
+- [Instalação](#instalação)
+- [Uso](#uso)
+- [Contribuição](#contribuição)
+- [Licença](#licença)
+- [Contato](#contato)
+- [Créditos](#créditos)
 
 ## Sobre
 Breve descrição do projeto, contexto e objetivo. Substitua por uma explicação clara do que o bot faz (ex.: moderação, respostas automáticas, integração).
@@ -112,5 +112,5 @@ Perfil: https://github.com/MAY0LPHI
 
 Notas:
 - Para adicionar imagens/screenshot, coloque os arquivos na pasta `assets/` e atualize o link:
-  <img>
+  `<img src="assets/screenshot.png" alt="Screenshot" width="600">`
 - Revise os comandos de Instalação e Uso caso o projeto utilize outra ferramenta (yarn, pnpm, etc.).
