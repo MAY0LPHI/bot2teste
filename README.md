@@ -1,82 +1,116 @@
-# bot2teste
+# bot2teste 🚀
 
-Breve descrição do projeto: explique o que o bot faz, qual problema resolve e qual é o objetivo principal.
+Uma descrição curta: bot2teste é um repositório exemplo para desenvolvimento e testes de um bot. Atualize esta descrição com o propósito real do projeto.
+
+<a href="https://github.com/MAY0LPHI/bot2teste"><img src="https://img.shields.io/badge/release-v1.0.0-blue"></a>
+<a href="https://github.com/MAY0LPHI/bot2teste/issues"><img src="https://img.shields.io/github/issues/MAY0LPHI/bot2teste"></a>
+<a href="https://github.com/MAY0LPHI/bot2teste/blob/main/LICENSE"><img src="https://img.shields.io/github/license/MAY0LPHI/bot2teste"></a>
 
 ## Sumário
-- [Visão geral](#visão-geral)
-- [Funcionalidades](#funcionalidades)
-- [Pré-requisitos](#pré-requisitos)
+- [Sobre](#sobre)
+- [Features](#features)
+- [Tecnologias](#tecnologias)
 - [Instalação](#instalação)
-- [Como usar](#como-usar)
-- [Configuração](#configuração)
-- [Testes](#testes)
-- [Roadmap](#roadmap)
+- [Uso](#uso)
 - [Contribuição](#contribuição)
 - [Licença](#licença)
+- [Contato](#contato)
+- [Créditos](#créditos)
 
-## Visão geral
-Contextualize o projeto, tecnologias principais e o que motivou sua criação.
+## Sobre
+Breve descrição do projeto, contexto e objetivo. Substitua por uma explicação clara do que o bot faz (ex.: moderação, respostas automáticas, integração).
 
-## Funcionalidades
-- Descreva as principais features
-- (Exemplo) Responde mensagens automaticamente
-- (Exemplo) Integra com API XYZ
-- (Exemplo) Logs e métricas
+## Features
+- ✅ Estrutura inicial do bot
+- ✅ Exemplo de comandos
+- ✅ Configuração via variáveis de ambiente
 
-## Pré-requisitos
-- Linguagem/Runtime: (ex.: Node.js 20, Python 3.11, etc.)
-- Dependências do sistema: (ex.: Docker, Git)
-- Variáveis de ambiente necessárias
+> Substitua as features pela lista real de funcionalidades do seu projeto.
+
+## Tecnologias
+- Linguagens: JavaScript / TypeScript (ajuste conforme o projeto)
+- Frameworks/libs: Node.js, (ex.: discord.js) — ajuste conforme o projeto
+- Ferramentas: Git
 
 ## Instalação
+
+1. Clone o repositório:
 ```bash
-# Clone o repositório
 git clone https://github.com/MAY0LPHI/bot2teste.git
 cd bot2teste
+```
 
-# Instale dependências
-# Exemplo para Node:
+2. Instale dependências (exemplo com npm):
+```bash
 npm install
-# ou para Python:
-# pip install -r requirements.txt
 ```
 
-## Como usar
+3. Configure variáveis de ambiente
+- Crie um arquivo `.env` na raiz com as chaves necessárias:
+
+```env
+# Exemplo de .env
+TOKEN=seu_token_aqui
+OUTRA_VARIAVEL=valor
+```
+
+## Uso
+
+Rodando localmente:
 ```bash
-# Exemplo de execução
-# Node:
+# modo desenvolvimento
+npm run dev
+
+# modo produção
 npm start
-# Python:
-# python main.py
 ```
 
-Descreva flags, parâmetros e fluxos comuns de uso.
-
-## Configuração
-Liste e explique variáveis de ambiente ou arquivos de config. Exemplo:
-- `API_KEY` — chave da API
-- `BOT_TOKEN` — token do bot
-- `LOG_LEVEL` — nível de log (info, debug, warn)
-
-## Testes
+Exemplo de execução direta:
 ```bash
-# Exemplo para rodar testes
-npm test
-# ou
-# pytest
+node index.js --opcao valor
 ```
 
-## Roadmap
-- [ ] Próximos passos/funcionalidades
-- [ ] Documentar API
-- [ ] Melhorar cobertura de testes
+Se o projeto for um bot que precisa ser convidado (ex.: bot para Discord), adicione instruções de convidar e permissões necessárias aqui.
 
 ## Contribuição
-1. Faça um fork do projeto
-2. Crie uma branch: `git checkout -b feature/nova-feature`
-3. Commit: `git commit -m "feat: descrição da feature"`
-4. Push: `git push origin feature/nova-feature`
-5. Abra um Pull Request
+Contribuições são bem-vindas! Siga estes passos:
+
+1. Faça um fork do repositório
+2. Crie uma branch para sua feature/bugfix:
+```bash
+git checkout -b feat/minha-melhora
+```
+3. Faça commits claros e atômicos:
+```text
+feat: adicionar comando X
+fix: corrigir bug Y
+```
+4. Envie sua branch e abra um Pull Request
+
+Abra issues para discutir mudanças maiores antes de implementar.
 
 ## Licença
-Defina a licença (ex.: MIT, Apache 2.0) ou inclua o arquivo LICENSE no repositório.
+Se já existir um arquivo LICENSE no repositório, mantenha o mesmo. Caso não exista, uma sugestão comum é a licença MIT.
+
+Exemplo (resumido):
+```
+MIT License
+Copyright (c) 2025 MAY0LPHI
+```
+
+Quer que eu adicione a licença MIT automaticamente ao repositório caso ainda não exista? (Responda que sim para eu orientar como fazer ou para eu fazer caso seja autorizado.)
+
+## Contato
+Autor: MAY0LPHI  
+Perfil: https://github.com/MAY0LPHI
+
+## Créditos
+- Bibliotecas e recursos utilizados
+- Colaboradores e contribuições
+
+---
+
+Notas:
+- Para adicionar imagens/screenshot, coloque os arquivos na pasta `assets/` e atualize o link:
+  `<img src="assets/screenshot.png" alt="Screenshot" width="600">`
+- Revise os comandos de Instalação e Uso caso o projeto utilize outra ferramenta (yarn, pnpm, etc.).
